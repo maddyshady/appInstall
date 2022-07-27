@@ -1,15 +1,15 @@
 {
-    "name":"Keel",
-    "short_name": "Keel Inc",
+    "name":"Affle",
+    "short_name": "Affle",
     "start_url": "./",
     "scope": ".",
-    "description": "Keel connects you with Canada’s best licensed immigration consultants.",
+    "description": "Virtual Card App",
     "display": "standalone",
     "background_color" :"White",
     "theme_color": "White",
     "icons": [
         {
-            "src": "/With_bg.png",
+            "src": "/affle.png",
             "type": "image/png",
             "sizes": "144x144",
             "purpose": "any"
