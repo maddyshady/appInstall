@@ -89,7 +89,7 @@ section.main-container {
 
 button.googleBtn {
     position: absolute;
-    bottom: 30px;
+    bottom: 80px;
     min-height: 60px;
     max-width: 310px;
     width: 1005;
