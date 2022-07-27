@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@font-face {
+    font-family: dank;
+    src: url(font/DenkOne-Regular.ttf);
+  }
+*,
+*::after,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #848484;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* // ========= common responsive ========= */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.p-relative {
+  position: relative !important;
+}
+section.main-container {
+    max-width: 360px;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainScreen {
+    background-color: #0057A6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bgImg.png);
+    background-size: cover;
+}
+.mainScreen img{
+    width: 200px;
+}
+
+.loginScreen {
+    background-color: #0057A6;
+    height: 100%;
+    background-image: url(images/bgImg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+button.googleBtn {
+    position: absolute;
+    bottom: 30px;
+    min-height: 60px;
+    max-width: 310px;
+    width: 1005;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.loginHeading {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.loginHeading h1 {
+    font-size: 34px;
+    margin-top: 26px;
+    color: white;
+    font-family: dank;
+    font-weight: 500;
+}
+
+button.googleBtn img {
+    position: absolute;
+    left: 20px;
+}
+
+.homeScreen {
+    background-color: #0057A6;
+    height: 100%;
+    background-image: url(images/bgImg.png);
+    background-size: cover;
+    position: relative;
+}
+
+.homeHead {
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 94px;
+    box-shadow: 0px 5px 6px  #0000000d;
+}
+
+.userCard {
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    background: white;
+    margin: 140px 24px 50px;
+    padding: 35px;
+}
+
+.usrImg {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userDtls {padding-top: 90px;}
+
+.userDtls h3 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #246EB4;
+}
+
+.userDtls p {
+    font-size: 16px;
+    color: #747373;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.userDtls img {
+    margin-top: 31px;
+}
+button.googleBtn span {color: #3E3E3E;font-size: 16px;font-weight: 700;}
+@media (max-width:767px) {
+    section.main-container {
+    max-width:100%;
+    }
+    .homeScreen{
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
